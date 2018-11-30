@@ -1,0 +1,133 @@
+#menu-click {
+    display: none;
+}
+
+nav #nav-top ul {
+    display: block;
+    height: unset !important;
+    background-color: unset;
+    border: unset;
+}
+
+nav #nav-top ul li {
+    padding-top: 10px;
+    display: inline-block;
+}
+
+nav #nav-bottom {
+    height: 45px;
+}
+nav #nav-bottom ul li {
+    padding-top: 5px;
+    display: inline-block;
+}
+
+#lead #hero-h1 {
+    margin-top: 30vh;
+    font-size: 58px;
+}
+#lead #hero-h2 {
+    font-size: 54px;
+}
+
+/* TYPES */
+
+#types {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.type-card {
+    width: 100%;
+}
+
+.type-card-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 35vh;
+}
+
+#types .type-card-img {
+    margin: 0;
+    width: 45%;
+}
+
+#types .type-description {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#types .type-description .type-text {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 0;
+    height: 280px;
+}
+
+#types .type-description .type-card-desc-img {
+    width: 50%;
+    box-sizing: border-box;
+    height: 280px;
+}
+
+#fruit-table {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#fruit-table table {
+    width: 80%;
+}
+
+#fruit-table thead {
+    font-size: 1.3em;
+}
+
+#fruits-4 {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 20px auto;
+}
+
+#fruit-card {
+    width: 25%;
+}
+
+.footer-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: row;
+    padding-left: 5%
+}
+
+.footer-menu {
+    width: 20%;
+}
+
+.footer-menu ul {
+    border-bottom: 0;
+    border-right: 1px solid gray;
+    margin: 10px;
+}
+
+.footer-form {
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-form a {
+    padding-bottom: 40px;
+    margin-left: 10%;
+}
+
+.footer-logo {
+    width: 10%;
+}

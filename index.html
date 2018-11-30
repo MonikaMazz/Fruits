@@ -5,9 +5,9 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/tablet.css" media="screen and (max-width: 1024px)">
-    <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 520px)">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+     <!-- <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width: 321px)"> -->
+    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 769px)">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&amp;subset=latin-ext" rel="stylesheet">
  </head>
  <body>
 <section id="home">
@@ -16,7 +16,11 @@
             <div id="logo">
                 <img src="./img/logo-gruszka-ugryziona.png">
             </div>
-            <ul id="menu-top">
+            <div id="menu-click">
+                    MENU
+                </label>
+            </div>
+            <ul id="nav-top">
                 <li><a href="#" class="scroll">O owocach</a></li>
                 <li><a href="#types" class="scroll">Rodzaje</a></li>
                 <li><a href="#" class="scroll">Galeria</a></li>
@@ -36,41 +40,49 @@
         <div id="lead">
             <h1 id="hero-h1">Owoce polskie i egzotyczne</h1>
             <h2 id="hero-h2">Najzdrowsze, najlepsze i najsmaczniejsze</h2>
-            <svg height="125" width="300">
-                <polyline points="0,0 150,100 300,0"
-                    fill="none" style="stroke:yellow; stroke-width:5" />
-                <polyline points="0,20 150,120 300,20"
-                    fill="none" style="stroke:yellow; stroke-width:5" />
+            <svg height="100" width="200">
+                <polyline points="0,0 100,80 200,0"
+                    fill="none" />
+                <polyline points="0,20 100,100 200,20"
+                    fill="none" />
             </svg>
         </div>
 
 </section>
 <section id="types">
     <div class="type-card">
-        <h1>Owoce i ich odmiany</h1>
-        <div class=type-card-line></div>
-        <p>Wszelkiego rodzaju odmiany . . . Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, accusamus laborum tempore assumenda repellendus maiores explicabo at molestiae quasi quas cum? Voluptatibus laborum eveniet quis repudiandae facilis quod? Dignissimos, odio.</p>
+        <div class="type-text">
+            <h1>Owoce i ich odmiany</h1>
+            <div class=type-card-line></div>
+            <p>Wszelkiego rodzaju odmiany . . . Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, accusamus laborum tempore assumenda repellendus maiores explicabo at molestiae quasi quas cum? Voluptatibus laborum eveniet quis repudiandae facilis quod? Dignissimos, odio.</p>
+        </div>
+        <div class="type-card-images">
         <img class="type-card-img" src="img/truskawka-zerwana.jpg">
         <img class="type-card-img"src="img/mix-owocow-w-koszyku.jpg">
+        </div>
     </div>
     <div class="type-card">
-            <div class=type-card-line></div>
-            <h1>Owoce i ich lorem ipsum</h1>
-            <p>Wszelkiego rodzaju odmiany . . . Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, accusamus laborum tempore assumenda repellendus maiores explicabo at molestiae quasi quas cum? Voluptatibus laborum eveniet quis repudiandae facilis quod? Dignissimos, odio.</p>
+            <div class="type-card-line"></div>
+                <h1>Owoce i ich lorem ipsum</h1>
+                <div class="type-text">
+                    <p>Wszelkiego rodzaju odmiany . . . Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, accusamus laborum tempore assumenda repellendus maiores explicabo at molestiae quasi quas cum? Voluptatibus laborum eveniet quis repudiandae facilis quod? Dignissimos, odio.</p>
+                </div>
+        <div class="type-card-images">
             <img class="type-card-img" src="img/jablka-zielone.jpg">
             <img class="type-card-img"src="img/czeresnie-w-misce.jpg">
         </div>
+        <div class=type-card-line></div>
+        <h1>Super odmiany owoców lorem ipsum "LOREM"</h1>
+        </div>
     <div class="type-description">
-            <div class=type-card-line></div>
-            <h1>Super odmiany owoców lorem ipsum "LOREM"</h1>
-            <img class="type-card-img" src="img/wisnie-czerwone.jpg">
+            <img class="type-card-desc-img" src="img/wisnie-czerwone.jpg">
             <div class="type-text"><h1>Wiśnie czerwone</h1><p>Wszelkiego rodzaju odmiany . . . Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, accusamus laborum tempore assumenda repellendus maiores explicabo at molestiae quasi quas cum? Voluptatibus laborum eveniet quis repudiandae facilis quod? Dignissimos, odio.</p></div>
             <div class="type-text"><h1>Czereśnie w misce białej</h1><p>Wszelkiego rodzaju odmiany . . . Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, accusamus laborum tempore assumenda repellendus maiores explicabo at molestiae quasi quas cum? Voluptatibus laborum eveniet quis repudiandae facilis quod? Dignissimos, odio.</p></div>
-            <img class="type-card-img"src="img/czeresnie-w-misce.jpg">
-            <img class="type-card-img" src="img/jablka-zielone.jpg">
+            <img class="type-card-desc-img"src="img/czeresnie-w-misce.jpg">
+            <img class="type-card-desc-img" src="img/jablka-zielone.jpg">
             <div class="type-text"><h1>Zielone jabłka</h1><p>Wszelkiego rodzaju odmiany . . . Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, accusamus laborum tempore assumenda repellendus maiores explicabo at molestiae quasi quas cum? Voluptatibus laborum eveniet quis repudiandae facilis quod? Dignissimos, odio.</p></div>
             <div class="type-text"><h1>Truskawki</h1><p>Wszelkiego rodzaju odmiany . . . Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, accusamus laborum tempore assumenda repellendus maiores explicabo at molestiae quasi quas cum? Voluptatibus laborum eveniet quis repudiandae facilis quod? Dignissimos, odio.</p></div>
-            <img class="type-card-img"src="img/truskawka-zerwana.jpg">
+            <img class="type-card-desc-img"src="img/truskawka-zerwana.jpg">
      </div>
 </section>
 <section id="fruit-table">
@@ -99,26 +111,30 @@
         <h3>Wiśnie</h3>
         <div class="type-card-line"></div>
         <p>Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum </p>
+        <img src="img/wisnie-czerwone.jpg">
     </div>
     <div class="fruit-card">
         <h3>Czereśnie</h3>
         <div class="type-card-line"></div>
         <p>Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum </p>
+        <img src="img/czeresnie-w-misce.jpg">
     </div>
     <div class="fruit-card">
         <h3>Jabłka</h3>
         <div class="type-card-line"></div>
         <p>Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum </p>
+        <img src="img/jablka-zielone.jpg">
     </div>
     <div class="fruit-card">
         <h3>Truskawki</h3>
         <div class="type-card-line"></div>
         <p>Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum lorem ipsum </p>
+        <img src="img/truskawka-zerwana.jpg">
     </div>
 </section>
 <footer>
-    <div>
-        <div>
+    <div class="footer-wrapper">
+        <div class="footer-menu">
             <ul>
                 <li>O owocach</li>
                 <li>Rodzaje</li>
@@ -126,7 +142,7 @@
                 <li>Kontakt</li>
             </ul>
         </div>
-        <div>
+        <div class="footer-menu">
             <ul>
                 <li>Wiśnie</li>
                 <li>Czereśnie</li>
@@ -134,17 +150,21 @@
                 <li>Truskawki</li>
             </ul>
         </div>
-        <div>
+        <div class="footer-form">
             <a href="#">Formularz kontaktowy &gt;</a>
-            <div></div>
         </div>
-        <div>
+        <div class="footer-logo">
             <img src="img/logo-gruszka-ugryziona.png" alt="">
         </div>
     </div>
-    <div>
+    <div id="copy">
         &copy; Copyright by Monika Matyszczak, 2018.
     </div>
 </footer>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+
  </body>
  </html>
