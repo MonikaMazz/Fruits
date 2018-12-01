@@ -66,14 +66,20 @@ nav #nav-bottom ul li {
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 0;
-    height: 280px;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
 }
 
-#types .type-description .type-card-desc-img {
+#types .type-description .type-img {
     width: 50%;
-    box-sizing: border-box;
-    height: 280px;
+    display: block;
 }
+
+#types .type-description .type-img img {
+    width: 100%;
+}
+
 
 #fruit-table {
     margin-top: 30px;
@@ -81,6 +87,7 @@ nav #nav-bottom ul li {
     align-items: center;
     justify-content: space-around;
 }
+
 #fruit-table table {
     width: 80%;
 }
