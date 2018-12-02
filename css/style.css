@@ -84,7 +84,7 @@ nav #nav-top ul li a {
 }
 
 .nav-scroll-height {
-    height: 75px !important;
+    height: 70px !important;
     transition: 1s;
 }
 
@@ -277,14 +277,14 @@ footer {
 }
 
 .footer-form {
-
+    border-bottom: 1px solid gray;
+    padding-bottom: 30px;
 }
 
 .footer-form a {
     text-decoration: none;
     color: gray;
-    padding: 10px;
-    border-bottom: 1px solid gray;
+    padding: 20px;
 }
 
 .footer-logo {
