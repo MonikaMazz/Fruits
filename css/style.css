@@ -6,6 +6,7 @@
 
 img {
     width: 100%;
+    display: block;
 }
 
 /* SECTION - HOME */
@@ -154,7 +155,6 @@ nav #nav-bottom ul li a {
     margin-top: 30px;
 }
 
-
 #lead svg polyline {
     stroke:white;
     stroke-width: 5;
@@ -202,11 +202,16 @@ nav #nav-bottom ul li a {
     width: 98%;
 }
 
+#types .type-description .type-img {
+    margin-bottom: 10px;
+}
+
 /* FRUIT TABLE */
 
 table {
     border-spacing: 0px;
     border-collapse: collapse;
+    margin: 10px;
 }
 
 thead {
@@ -218,7 +223,7 @@ td {
     font-size: 0.8em;
 }
 
-/* FRUITS - 4 */
+/* FRUITS - 4X */
 
 #fruits-4 {
     margin-top: 10px;
